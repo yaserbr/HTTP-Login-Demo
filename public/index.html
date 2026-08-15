@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Security Lab Login</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="login-card" aria-labelledby="title">
+        <div class="card-header">
+          <p class="eyebrow">Security Lab</p>
+          <h1 id="title">HTTP Login Demo</h1>
+        </div>
+
+        <form id="loginForm" class="login-form">
+          <label for="username">
+            Username
+            <input
+              id="username"
+              name="username"
+              type="text"
+              autocomplete="username"
+              value="student"
+              required
+            />
+          </label>
+
+          <label for="password">
+            Password
+            <input
+              id="password"
+              name="password"
+              type="password"
+              autocomplete="current-password"
+              value="password123"
+              required
+            />
+          </label>
+
+          <button type="submit" id="loginButton">LOGIN</button>
+        </form>
+
+        <div class="response-box" aria-live="polite">
+          <span>Server response</span>
+          <strong id="responseText">Waiting for login request...</strong>
+        </div>
+
+        
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
+

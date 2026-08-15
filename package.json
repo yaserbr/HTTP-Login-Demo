@@ -1,0 +1,22 @@
+{
+  "name": "login-lab",
+  "version": "1.0.0",
+  "description": "Educational HTTP login server for authorized cybersecurity lab demonstrations.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "education",
+    "http",
+    "security-lab",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
+
